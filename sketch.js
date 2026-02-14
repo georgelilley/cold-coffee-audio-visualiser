@@ -1,3 +1,17 @@
+/**
+ * Legacy academic project (2021).
+ *
+ * Purpose:
+ * Exploration of audio-reactive graphics, timing systems,
+ * and real-time rendering in the browser using p5.js.
+ *
+ * The structure reflects rapid experimentation and creative discovery
+ * rather than production architecture or modern best practices.
+ *
+ * This file is intentionally preserved close to its original form
+ * to demonstrate progression in my engineering approach over time.
+ */
+
 var song, // in this section of code I am declaring variables. This is important so that the code when run recognises these variables and doesn't present a syntax error. 
   amp,
   fft,
