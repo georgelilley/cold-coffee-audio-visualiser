@@ -1,33 +1,71 @@
-🎨 Cold Coffee – Audiovisual Art Animation
+# 🎨 Cold Coffee – Audio-Reactive Visual System
 
-📌 Disclaimer
+## Demo
+🔗 https://editor.p5js.org/lilley49/sketches/ieJdEUbva
 
-This is a legacy project created in 2021 as part of my university studies. The code in this repository may not reflect best practices, but I believe it’s important to share as part of my development. Since then, I have focused on writing cleaner, more maintainable code, following principles outlined in Clean Code by Robert C. Martin.
-🎶 Project Overview
+---
 
-This project is an audiovisual animation program built using the p5.js library. It was designed to visualize the song Cold Coffee by Galt MacDermot through dynamic 3D visual art.
+## Overview
 
-🔹 Key Features
+A browser-based real-time audiovisual experiment built with **p5.js**.
 
--  Uses p5.js to generate real-time visuals.
--  Features 3D movement and dynamic visuals synced to the music.
--  Inspired by title sequences from film, generative art, and creative coding pioneers like John Whitney.
+The project generates animated 3D graphics driven by musical structure, translating rhythm and intensity into evolving spatial behaviour.
+It represents some of my earliest work in interactive graphics and is preserved to show the progression toward the larger, production-oriented systems I build today.
 
-🚨 Note: The original audio file is not included in this repository due to copyright restrictions.
-🎯 Research & Methodology
+---
 
-This project explored creative coding as an approach to audio visualization, investigating:
+## What This Project Demonstrates
 
--  The advantages of custom-built code over pre-made VJ software.
--  The role of data mappings in linking music to visuals dynamically.
--  How timing and spatial positioning create an engaging 3D visualization experience.
+- Real-time rendering in the browser  
+- Audio → visual parameter mapping  
+- Dynamic camera & spatial motion  
+- Time-synchronised animation behaviours  
+- Continuous simulation & render loop
+- Interactive control of scene evolution
 
-🚀 Future Reflection
+---
 
-This project introduced me to the fundamentals of generative audiovisual art. Since then, my coding practices have evolved significantly, with a focus on:
-✅ Writing modular and maintainable code.
-✅ Improving performance and scalability.
-✅ Exploring real-time generative art and AI-assisted creativity.
+## How It Works
 
-🔗 View in the p5.js web editor:
-[Cold Coffee Audiovisual Project](https://editor.p5js.org/lilley49/sketches/ieJdEUbva )
+Visual behaviours are derived from deterministic rules driven by the soundtrack.
+
+As musical intensity changes, the program adjusts:
+
+- object motion  
+- depth & perspective  
+- transformation speed  
+- spatial distribution  
+- visual density  
+
+Even with relatively simple primitives, the combinations produce complex, evolving sequences.
+
+---
+
+## Technical Challenges Explored
+
+- Synchronising animation with music  
+- Designing mappings that stay readable as intensity increases  
+- Avoiding runaway visual complexity  
+- Maintaining stable browser performance  
+
+---
+
+## Technologies
+
+- JavaScript  
+- p5.js  
+- Web Audio  
+
+---
+
+## Repository Context
+
+Created in 2021 during early university study.
+
+The structure reflects rapid experimentation and creative exploration rather than modern production architecture. I keep the project public because it provides a useful reference point for how my engineering approach has developed since.
+
+---
+
+## Audio Notice
+
+The original soundtrack is not included due to copyright restrictions.
